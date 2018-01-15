@@ -19,7 +19,7 @@ let honorific = prompt('Please enter an honorific title (e.g. Mister or Colonel)
 let authorName = prompt('What is your full name?');
 
 // TODO: A variable named "adjective1" for a word used to describe something.
-let adjective = prompt('Give me a word to describe something:');
+let adjective1 = prompt('Give me a word to describe something:');
 // TODO: A variable named "vehicle" for a mode of transation (e.g. plane, boat, etc.).
 let vehicle = prompt('What is yout favorite vehicle?');
 // TODO: A variable named "vehiclePart" for a part of the vehicle you just named.
@@ -31,7 +31,7 @@ let precious = prompt('Name a precious object.');
 // TODO: A variable named "noiseMaker" for something that makes a sound.
 let noiseMaker = prompt('Name something that makes noise');
 // TODO: A variable named "crowdBehavior" for something that people do together as a group.
-let crowdBeharvior = prompt('What is something a crowd does together?');
+let crowdBehavior = prompt('What is something a crowd does together?');
 // TODO: A variable named "adjective2" for a word used to describe something.
 let adjective2 = prompt('What is another word used to describe something?');
 // TODO: A variable named "adjective3" for a word used to describe something.
@@ -74,7 +74,7 @@ let userNumber = prompt('What is your lucky number?');
 // Use any operator you would like to add, multiply, divide, or otherwise
 // change the number that the user submitted.
 
-let number2 = userNumber**4;
+let number2 = userNumber + 4;
 
 let number3 = userNumber / number2 + (number2/12);
 
